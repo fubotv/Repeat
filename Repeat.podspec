@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/danielemargutti"
   s.ios.deployment_target = "12.2"
   s.osx.deployment_target = "10.14.4"
-  s.tvos.deployment_target = "12.2"
+  s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "5.2"
   s.source       = { :git => "https://github.com/malcommac/Repeat.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
